@@ -4,7 +4,7 @@ on:
 jobs:
  selfhosted-runner:
   name: self-hosted
-  runs-on: selfhosted
+  runs-on: self-hosted
   steps:
    - name: testing self-hosted-runner
      run: |

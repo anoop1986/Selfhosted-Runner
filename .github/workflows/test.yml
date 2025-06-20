@@ -1,0 +1,14 @@
+name: selfhosted-runner
+on:
+ workflow_dispatch:
+jobs:
+ selfhosted-runner:
+  name: self-hosted
+  runs-on: selfhosted
+  steps:
+   - name: testing self-hosted-runner
+     run: |
+             echo "Welcome to Self-Hosted runner"
+             echo "OK !!!"
+ 
+ 

@@ -1,6 +1,6 @@
 name: selfhosted-runner
 on:
- workflow_dispatch:
+ push 
 jobs:
  selfhosted-runner:
   name: self-hosted
